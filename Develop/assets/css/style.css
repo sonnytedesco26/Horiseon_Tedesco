@@ -9,7 +9,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2589bd;
 }
-
+    /*Horiseon title font styling*/
     header h1 {
         display: inline-block;
         font-size: 48px;
@@ -18,7 +18,7 @@ header {
         position: relative;
         left: 30px;
     }
-
+    /*Nav font styling*/
     header nav {
         padding-top: 15px;
         margin-right: 20px;
@@ -49,14 +49,17 @@ a {
 p {
     font-size: 16px;
 }
-/*main image above listed benefits (Search Engine, Online Rep Management, Social Media Marketing)*/
-.sos {
+
+/*Classes*/
+
+/*main image above listed blocks (Search Engine, Online Rep Management, Social Media Marketing)*/
+.page {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
 }
-/*Floats used to line up images in the Content section*/
+/*Floats used to line up images to left/right sides in the Content section*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,7 +71,7 @@ p {
     margin-left: 25px;
     max-height: 200px;
 }
-/*Content used list the benefits (Search Engine, Online Rep Management, Social Media Marketing)*/
+/*Content used to format Search Engine, Online Rep Management and Social Media Marketing blocks*/
 .content {
     width: 75%;
     display: inline-block;
@@ -88,7 +91,7 @@ p {
         font-size: 18px;
     }
 
-.steps {
+.blocks {
     margin-bottom: 20px;
     padding: 40px;
     height: 280px;
@@ -98,7 +101,7 @@ p {
     position:relative;
     top:100px;
 }
-
+/*Benefits banner on right side of page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,17 +111,18 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
 }
 
     .benefits p {
         text-align: center;
     }
-
+/*Used to space benefit from bottom of page; also sets font color within benefits*/
 .benefit-side {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 27px;
+    text-align: center;
 }
-
+/*Spaces text and images within benefits*/
     .benefit-side h3 {
         margin-bottom: 10px;
         text-align: center;
@@ -129,7 +133,7 @@ p {
         margin: 10px auto;
         max-width: 150px;
     }
-
+/*Gives padding to the footer, centers and styles font*/
 footer {
     padding: 30px;
     clear: both;
@@ -137,10 +141,13 @@ footer {
     text-align: center;
 }
 
+/*Classes end*/
+
+/*Sizes Made with <3 by Horiseon*/
 footer h2 {
     font-size: 20px;
 }
-
+/*Copyright stuff*/
 footer p {
     font-size: 14px;
 }
