@@ -4,24 +4,24 @@ Horiseon home page to showcase multiple benefits of services. Still lacks flex p
 
 ## Nav Bar
 
-![NavBar](/Develop/assets/images/NavBar.png)
+![NavBar](/assets/images/NavBar.png)
 
 At the top of the website - provides navigation to take user down to the section of the page of the their choosing. Below the Nav Bar is the main banner image.
 
 ## Body
 
-![blocks](/Develop/assets/images/blocks.png)
+![blocks](/assets/images/blocks.png)
 
 Below the banner image, are blocks containing the benefits of the Horiseon service (Search Engine Optimization, Online Reputation Management, Social Media Marketing). These blocks include an image for each one.
 
 ## Side benefits
 
-![SideBenefits](/Develop/assets/images/side-benefits.png)
+![SideBenefits](/assets/images/side-benefits.png)
 
 Lists benefits on the side of a screen on a banner below the main banner image. Includes 3 png's as icons for each section of text.
 
 ## Footer
 
-![SideBenefits](/Develop/assets/images/footer.png)
+![SideBenefits](/assets/images/footer.png)
 
 Footer at bottom of page, including Horiseon Social Solution Services copyright.
